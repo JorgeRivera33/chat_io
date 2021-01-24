@@ -1,6 +1,6 @@
 const mensajes=document.querySelector("#mensajes");
 const msgForm=document.querySelector("#msgForm");
-const socket = io('http://localhost:3000');
+const socket = io('https://chat-io.vercel.app:3000');
 
 socket.on('message',data=>{
 	console.log(data);
